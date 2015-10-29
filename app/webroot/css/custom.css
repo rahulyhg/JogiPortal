@@ -1,0 +1,487 @@
+/******* import fonts ****/
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans_regular_macroman/OpenSans-Regular-webfont.eot');
+    src: url('../fonts/opensans_regular_macroman/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans_regular_macroman/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../fonts/opensans_regular_macroman/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/opensans_regular_macroman/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/opensans_light_macroman/OpenSans-Light-webfont.eot');
+    src: url('../fonts/opensans_light_macroman/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans_light_macroman/OpenSans-Light-webfont.woff') format('woff'),
+         url('../fonts/opensans_light_macroman/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('../fonts/opensans_light_macroman/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('../fonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.eot');
+    src: url('../fonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.woff') format('woff'),
+         url('../fonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/opensans_bold_macroman/OpenSans-Bold-webfont.eot');
+    src: url('../fonts/opensans_bold_macroman/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans_bold_macroman/OpenSans-Bold-webfont.woff') format('woff'),
+         url('../fonts/opensans_bold_macroman/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans_bold_macroman/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+
+/************** Reset CSS ****/
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a,a:hover,a:visited {
+	text-decoration: none;
+}
+/***** end of reset ***/
+h1,h2,h3,h4,h5 {
+	color: #f86218;
+	font-family: 'open_sansbold';
+}
+h2 {
+	font-size: 28px;
+	line-height: 32px;
+}
+h3 {
+	font-size: 24px;
+	line-height: 28px;
+}
+h4 {
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.txtCenter {
+	text-align: center;
+}
+.btnWrap {
+	margin-top: 20px;
+}
+.btnFill {
+	background: #f86218;
+	padding: 5px 30px;
+	color: #fff;
+	border: none;
+	box-shadow: none;
+	display: inline-block;
+}
+body {
+	font-family: 'open_sansregular';
+}
+/**** header ***/
+.logo {
+	width: 135px;
+	height: 36px;
+	background: url("../images/logo.png") top left no-repeat;
+	display: inline-block;
+	margin: 10px 0;
+}
+.langWrap {
+	margin-top: 10px;
+}
+.langWrap a{
+	font-size: 14px;
+	line-height: 18px;
+	color: #f86218;
+	padding: 0 5px;
+	float: left;
+	border-left: 1px solid #f86218;
+}
+.langWrap a:first-child {
+	border-left: 0;
+}
+header nav {
+	background: #f86218;
+}
+header nav ul li {
+	float: left;
+	position: relative;
+}
+header nav ul li a {
+	display: inline-block;
+	color: #fff;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 9px 20px;
+}
+header nav ul li a:hover {
+	background: #d94800;	
+	color: #fff;
+}
+.mainNav .subNav ,
+.loginMenu  .subNav{
+	position: absolute;
+	top: 36px;
+	left: 0;
+	background: #f86218; 
+	display: none;
+	z-index: 1001;	 
+}
+.subNav {
+	width: 150px;
+} 
+.subNav li {
+	float: none;
+}
+.subNav li a {
+	display: block;	
+}
+.subNav li a:hover {
+	background: #d94800;	
+}
+.hasSMenu:hover ul {
+	display: block;
+}
+
+
+
+.mainSlider {
+	border-bottom: 4px solid #f86218;
+	position: relative;
+	margin-bottom: 28px;
+}
+.mainSlider .cycle-pager {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	z-index: 1000;
+	text-align: center;
+}
+.mainSlider .cycle-pager span{
+	font-size: 24px;
+	margin: 0 5px;
+	line-height: 30px;
+	color: #f86218;
+}
+
+/******** section info ***************/
+.sectionInfo {
+	margin-bottom: 30px;
+}
+.sectionInfo h4 {
+	padding-bottom: 8px;
+	border-bottom: 2px solid #f86218;
+	margin-bottom: 10px;
+}
+.sectionInfo p{
+	font-size: 16px;
+	line-height: 20px;
+	color: #474544;
+}
+.homeNews ul li {
+	padding-left: 15px;
+	margin-top: 10px;
+	font-size: 16px;
+	line-height: 20px;
+	position: relative;
+}
+.homeNews ul li:first-child {
+	margin-top: 0;
+}
+.homeNews ul li:before {
+	position: absolute;
+	top: 5px;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: #f86218;
+	left: 0;
+	content: "";
+	display: inline-block;
+
+}
+.supportWrap img {
+	width: 100px;
+	margin-left: 10px;
+}
+.advtWrapper {
+	margin-bottom: 25px;
+}
+.socialShareBox {
+	border-radius: 4px;
+	border: 1px solid #f86218;
+	margin-bottom: 25px;
+	padding: 10px 20px;
+}
+.socialShareBox a {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background: url("../images/sprite.png") no-repeat;
+	text-indent: -9999px;
+}
+.socialShareBox a.icon-fb {
+	background-position: 0 0;
+}
+.socialShareBox a.icon-twt {
+	background-position: 0 -28px;
+}
+
+/******* login ***********/
+.loginWrap {
+	padding: 30px;
+	width: 270px;
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	border: 1px solid #f86218;
+	border-radius: 4px;
+}
+.loginWrap h3 {
+	margin: 0 0 20px;
+}
+input[type="text"],
+input[type="password"]{
+	height: 35px;
+	box-sizing: border-box;
+	width: 100%;
+	border: 1px solid #f86218;
+	box-shadow: none;
+	border-radius: 0;
+}
+input[type="text"].error,
+input[type="password"].error,
+input:focus{
+ border: 1px solid #f00;
+ -webkit-box-shadow: inset 0 1px 1px rgba(255, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+ -moz-box-shadow: inset 0 1px 1px rgba(255, 0, 0, 0.075), 0 0 8px rgba(255,0,0, 0.6);
+ box-shadow: inset 0 1px 1px rgba(255, 0, 0, 0.075), 0 0 8px rgba(255,0,0, 0.6);
+}
+.error {
+	color: #f00;
+}
+.controlWrap {
+	margin-bottom: 10px;
+}
+.controlWrap input[type="checkbox"]{
+	margin: 0 5px 0;
+}
+.loginWrap .controlWrap a {
+	display: block;
+	font-size: 15px;
+	color: #f86218;
+}
+/************ end of register ****/
+
+/******** user search ****/
+.searchform{
+	width:300px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #f86218;
+	background: #f2f2f2;
+}
+.searchform h4 {
+	border-bottom: none;
+	margin: 0;
+	text-align: center;
+}
+.userSearchList {
+	margin-top: 20px;
+}
+.userSearchList li {
+	float: left;
+	border: 1px solid #999;
+	padding: 10px;
+	padding-left: 80px;
+	position: relative;
+	min-height: 50px;
+	box-sizing: border-box;
+	background: #f2f2f2;
+	margin-bottom: 20px;
+}
+img {
+	max-width: 100%;
+}
+.userSearchList li .userImg{
+	width: 60px;
+	overflow: hidden;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.userSearchList li .userInfo > span{
+	display: block;
+	margin-bottom: 5px;
+
+}
+.userSearchList li .userInfo .txtLabel {
+	display: inline-block; 
+	font-size: 14px;
+	font-weight: bold;
+}
+.userSearchList li a:hover {
+	text-decoration: underline;
+}
+.customSelectWrap {
+	position: relative;
+	height: 33px;
+	background: #fff;
+	color: #000;
+	border: 1px solid #ee3445;
+}
+.customSelectWrap .selectedValue{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	padding: 5px;
+	height: 100%;
+	box-sizing: border-box;
+	padding-right: 20px;
+}
+.customSelectWrap .selectedValue:before {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 5px solid #ee3445;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	content: " ";
+	display: inline-block;
+	top: 50%;
+	margin-top: -2px;
+	right: 10px;
+}
+.customSelectWrap select {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+.note{
+	margin: 0;
+	font-size: 10px;
+	line-height: 16px;
+	margin-bottom: 10px;
+	display: block;
+	text-align: center;
+}
+
+.tabWrap {
+	background: #f2f2f2;
+	border: 1px solid #f3f3f3;
+}
+.tabContentWrap {
+	border-left: 1px solid #f86218;
+	padding: 10px;
+	min-height: 500px;
+	background: #fff;
+}
+.tabContentWrap .tabContent {
+	display: none;
+}
+.tabContentWrap .tabContent.active {
+	display: block;
+}
+.tabWrap .tabList li{
+	padding: 10px;
+	text-align: center;
+	background: #
+}
+.verticalTab {
+	padding-left: 150px;
+	position: relative;
+}
+.verticalTab .tabList {
+	float: left;
+	width: 150px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.verticalTab .tabList li {
+	display: block;
+	cursor: pointer;
+}
+.verticalTab .tabList li.active {
+	background: #f86218;
+	color: #fff;
+}
+
+
+.valueWrap {
+	margin-bottom: 10px;
+	font-size: 14px;
+	line-height: 20px;
+}
+.valueWrap .valueLabel {
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.personal .userImg{
+	float: left;
+	width: 120px;
+	margin: 0 20px 0 0;
+}
+.personal .userDetailsInfo {
+	margin-left: 140px;
+}
+
+/*** donate box ***/
+.donateBox {
+	border: 1px solid #f86218;
+	background: #f2f2f2;
+	margin-bottom: 20px;
+	border-radius: 4px;
+}
+.donateBox a {
+	display: block;
+	padding: 20px;
+}
+.donateBox h3 {
+	font-size: 14px;
+	line-height: 20px;
+}
+/** end of donate box **/
+
+/******* footer **********/
+footer {
+	background: #f86218;
+	padding: 20px 10px;
+}
+footer .sectionInfo h4 {
+	color: #fff;
+	font-size: 20px;
+	border-bottom-color: #fff;
+}
+footer ul {
+	min-width: 80px;
+	margin-left: 30px;
+}
+footer ul.firstMenu {
+	margin-left: 0;
+}
+footer ul li a{
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;
+}
+footer ul li a:hover {
+	color: #fff;
+}
