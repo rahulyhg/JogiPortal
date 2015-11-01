@@ -31,8 +31,10 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 
                 echo $this->Html->css('bootstrap');
                 echo $this->Html->css('bootstrap-responsive');
-                echo $this->Html->css('custom');
                 echo $this->Html->css('bootstrap-3.1.1.min');
+                echo $this->Html->css('font-awesome.min');
+                echo $this->Html->css('custom');
+               
                 
                 echo $this->Html->script('jquery-1.9.1.min');
                 echo $this->Html->script('modernizr-2.7.1.min');

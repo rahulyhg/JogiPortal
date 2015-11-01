@@ -26,7 +26,14 @@
 			<div class="container">
 				<div class="menuContainer clearfix">
 				<ul class='mainNav pull-left'>
-					<li> <?php echo $this->Html->link('Home',array('controller'=>'Index','action'=>'home')); ?></li>
+					<li>
+						<?php 
+							echo $this->Html->link(
+								$this->Html->tag('i', '', array('class' => 'fa fa-home'))."Home",
+								array('controller'=>'Index','action'=>'home'),
+								array('escape' => false));
+						?>
+					</li>
 					<li class="hasSMenu"><a href="#">About</a>
 						<ul class="subNav">
 							<li><a href="#">History of Jogi samaj</a></li>
@@ -34,13 +41,25 @@
 							
 						</ul>
 					</li>
-					<li><a href="#">Gallery</a></li>
-					<li><a href="news.html">News</a></li>
-					<li><a href="searchUser.html">Directory</a></li>
+					<li><a href="#"><i class="fa fa-file-photo-o"></i>Gallery</a></li>
+					<li><a href="news.html"><i class="fa fa-newspaper-o"></i>News</a></li>
+					<li><a href="searchUser.html"><i class="fa fa-search"></i>Directory</a></li>
 				</ul>
 				<ul class='loginMenu pull-right'>
-					<li><?php echo $this->Html->link('Login',array('controller'=>'Users','action'=>'login'));?></li>
-					<li><?php echo $this->Html->link('Register',array('controller'=>'Users','action'=>'register'));?></li>
+					<li>
+						<?php 
+						echo $this->Html->link($this->Html->tag('i', '', array('class' => 'fa fa-sign-in')).'Login',
+							array('controller'=>'Users','action'=>'login'),
+							array('escape' => false));
+						?>
+					</li>
+					<li>
+						<?php 
+							echo $this->Html->link($this->Html->tag('i','',array('class' => 'fa fa-user-plus')).'Register',
+								array('controller'=>'Users','action'=>'register'),
+								array('escape' => false));
+						?>
+					</li>
 					<!-- <li class="hasSMenu"><a href="#">Profile</a>
 						<ul class="subNav">
 							<li><a href="#">Account</a></li>

@@ -49,6 +49,10 @@
 
 
 /************** Reset CSS ****/
+html,body {
+	height: 100%;
+	min-height: 100%;
+}
 ul, li {
 	margin: 0;
 	padding: 0;
@@ -71,8 +75,8 @@ h3 {
 	line-height: 28px;
 }
 h4 {
-	font-size: 20px;
-	line-height: 24px;
+	font-size: 18px;
+	line-height: 22px;
 }
 
 .txtCenter {
@@ -91,6 +95,8 @@ h4 {
 }
 body {
 	font-family: 'open_sansregular';
+	background: #f4f5f6;
+	position: relative;	
 }
 /**** header ***/
 .logo {
@@ -114,6 +120,9 @@ body {
 .langWrap a:first-child {
 	border-left: 0;
 }
+header {
+ 	margin-bottom: 20px;
+ }
 header nav {
 	background: #f86218;
 }
@@ -128,7 +137,11 @@ header nav ul li a {
 	line-height: 18px;
 	padding: 9px 20px;
 }
-header nav ul li a:hover {
+header a i {
+	margin-right: 5px;
+}
+header nav ul li a:hover,
+.active > a {
 	background: #d94800;	
 	color: #fff;
 }
@@ -160,9 +173,16 @@ header nav ul li a:hover {
 
 
 .mainSlider {
-	border-bottom: 4px solid #f86218;
+	
 	position: relative;
 	margin-bottom: 28px;
+}
+.mainSlider  .cycle-slideshow {
+	
+	border: 2px solid #f86218;
+}
+.mainSlider img {
+	width: 100%;
 }
 .mainSlider .cycle-pager {
 	position: absolute;
@@ -180,12 +200,17 @@ header nav ul li a:hover {
 
 /******** section info ***************/
 .sectionInfo {
-	margin-bottom: 30px;
+	margin-bottom: 30px;	
+}
+.infoBlock {
+	box-shadow: 0 0 3px rgba(0,0,0,.15);
+	padding: 20px;
 }
 .sectionInfo h4 {
-	padding-bottom: 8px;
+	padding-bottom: 6px;
 	border-bottom: 2px solid #f86218;
 	margin-bottom: 10px;
+	margin-top: 0;
 }
 .sectionInfo p{
 	font-size: 16px;
@@ -212,7 +237,12 @@ header nav ul li a:hover {
 	left: 0;
 	content: "";
 	display: inline-block;
-
+}
+li.nolistSymbol:before,
+.homeNews ul li.nolistSymbol:before {
+	display: none;
+	width: 0;
+	height: 0;
 }
 .supportWrap img {
 	width: 100px;
@@ -228,18 +258,21 @@ header nav ul li a:hover {
 	padding: 10px 20px;
 }
 .socialShareBox a {
+	margin-right: 5px;
 	display: inline-block;
-	width: 24px;
-	height: 24px;
-	background: url("../images/sprite.png") no-repeat;
-	text-indent: -9999px;
 }
-.socialShareBox a.icon-fb {
-	background-position: 0 0;
+.socialShareBox a i {
+	font-size: 30px;
+	line-height: 30px;
 }
-.socialShareBox a.icon-twt {
-	background-position: 0 -28px;
+.fa-facebook-official {
+	color: #3b5998
 }
+.fa{
+	margin-right: 5px;
+}
+
+
 
 /******* login ***********/
 .loginWrap {
@@ -250,12 +283,14 @@ header nav ul li a:hover {
 	margin-bottom: 100px;
 	border: 1px solid #f86218;
 	border-radius: 4px;
+	background: #fff;
 }
 .loginWrap h3 {
 	margin: 0 0 20px;
 }
 input[type="text"],
-input[type="password"]{
+input[type="password"],
+textarea{
 	height: 35px;
 	box-sizing: border-box;
 	width: 100%;
@@ -263,9 +298,14 @@ input[type="password"]{
 	box-shadow: none;
 	border-radius: 0;
 }
+textarea{
+	height: 100px;
+}
 input[type="text"].error,
 input[type="password"].error,
-input:focus{
+input:focus,
+textarea:focus,
+textarea.error{
  border: 1px solid #f00;
  -webkit-box-shadow: inset 0 1px 1px rgba(255, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
  -moz-box-shadow: inset 0 1px 1px rgba(255, 0, 0, 0.075), 0 0 8px rgba(255,0,0, 0.6);
@@ -290,7 +330,7 @@ input:focus{
 /******** user search ****/
 .searchform{
 	width:300px;
-	margin: 0 auto;
+	margin: 100px auto;
 	padding: 20px;
 	border: 1px solid #f86218;
 	background: #f2f2f2;
@@ -460,14 +500,22 @@ img {
 }
 /** end of donate box **/
 
+/***** cotact **/
+.contactForm {
+	width: 300px;
+	margin: 0 auto;
+	padding: 30px;
+	background: #fff;
+	border: 1px solid #f86218;
+}
+
 /******* footer **********/
 footer {
 	background: #f86218;
-	padding: 20px 10px;
+	padding: 20px 10px;	
 }
 footer .sectionInfo h4 {
-	color: #fff;
-	font-size: 20px;
+	color: #fff;	
 	border-bottom-color: #fff;
 }
 footer ul {
@@ -484,4 +532,14 @@ footer ul li a{
 }
 footer ul li a:hover {
 	color: #fff;
+}
+footer .footerImg img {
+	width: 150px;
+	float: right ;
+}
+
+
+#map {
+	width: 100%;
+	height: 500px;
 }

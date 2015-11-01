@@ -16124,3 +16124,195 @@ Request URL: /fonts/opensans_regular_macroman/OpenSans-Regular-webfont.ttf
 Stack Trace:
 #0 C:\xampp\htdocs\jogi_Cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-11-01 07:06:03 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/slide1.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-01 07:06:03 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/200x2003.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-01 07:06:03 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/200x2005.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-01 07:06:04 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/200x2001.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-01 07:06:04 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/200x2004.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-01 07:06:04 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/200x2002.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-01 07:06:04 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/200x2006.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-01 07:06:04 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/slide1.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-01 07:06:04 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/200x2001.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-01 07:06:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/glyphicons-halflings.png
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-01 07:06:10 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/200x2003.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-01 07:06:10 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/200x2005.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-01 07:06:10 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/200x2004.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-01 07:06:10 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/200x2006.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-01 07:06:10 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/200x2002.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-01 07:06:10 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/200x2001.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-01 07:06:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/glyphicons-halflings.png
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-01 07:06:10 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/200x2001.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-01 07:08:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/glyphicons-halflings.png
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-01 07:30:34 Error: Fatal Error (4): syntax error, unexpected '',' (T_CONSTANT_ENCAPSED_STRING) in [D:\unmesh\GIT-PRO\JogiPortal\app\View\Users\login.ctp, line 30]
+2015-11-01 07:30:34 Error: [FatalErrorException] syntax error, unexpected '',' (T_CONSTANT_ENCAPSED_STRING)
+Request URL: /Users/login
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\\unmesh\\GIT-P...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\\unmesh\\GIT-P...', 30, Array)
+#2 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\\unmesh\\GIT-P...', 30, Array)
+#3 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-01 08:39:16 Error: [MissingActionException] Action IndexController::news.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'IndexController',
+  'action' => 'news.html',
+)
+Request URL: /Index/news.html
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(IndexController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

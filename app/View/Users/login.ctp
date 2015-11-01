@@ -16,7 +16,7 @@ echo $this->element('header');?>
 
         <div class="controlWrap">
             <label>
-                <?php echo $this->Form->input('',array('type'=>'checkbox','id'=>'remember','name'=>'remember'))?>
+                <?php echo $this->Form->input('',array('type'=>'checkbox','id'=>'remember','name'=>'remember','div'=>false))?>
                 Remember me
             </label>
         </div>
@@ -26,7 +26,11 @@ echo $this->element('header');?>
             <?php echo $this->Html->link("Don't have account? Register here.",array('controller'=>'User','action'=>'register'));?>
         </div>
         <div class="controlWrap txtCenter btnWrap">
-            <?php echo $this->Form->input('Login',array('type'=>'submit','class'=>'btnFill','label'=>'')); ?>
+            <?php echo $this->Form->input($this->Html->tag('i', '',
+                array('class' => 'fa fa-home')).'Login',
+                array('type'=>'button','class'=>'btnFill','label'=>false),
+                array('escape' => false)); 
+            ?>
         </div>
         <?php echo $this->Form->end();?>
     </div>

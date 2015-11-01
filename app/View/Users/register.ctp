@@ -7,16 +7,28 @@ echo $this->element('header');?>
         <?php echo $this->Form->create('',array('class'=>'loginForm','id'=>'userReg'))?>
         <h3 class='txtCenter'>Register</h3>
 
-        <div class="controlWrap">
-                <?php echo $this->Form->input('',array('type'=>'text','placeholder'=>'Full Name','label'=>'','name'=>'fullname'))?>
+        <div class="controlWrap">           
+                <?php 
+                    echo $this->Form->input('',array('type'=>'text','placeholder'=>'Full Name','label'=>'','name'=>'fullname'));
+                ?>             
         </div>
 
         <div class="controlWrap">
-                <?php echo $this->Form->input('',array('type'=>'select','empty'=>'Select','options'=>$arrState,'placeholder'=>'State','label'=>'','name'=>'stateId','id'=>'stateId'));?>
+            <div class="customSelectWrap">
+                <div class="selectedValue">Select State</div>
+                <?php 
+                    echo $this->Form->input('',array('type'=>'select','empty'=>'Select','options'=>$arrState,'placeholder'=>'State','label'=>'','name'=>'stateId','id'=>'stateId'));
+                ?>
+            </div>  
         </div>
 
         <div class="controlWrap">
-                <?php echo $this->Form->input('',array('type'=>'select','empty'=>'select','label'=>'','name'=>'districtId','id'=>'districtId'));?>
+            <div class="customSelectWrap">
+                <div class="selectedValue">Select City</div> 
+                <?php 
+                    echo $this->Form->input('',array('type'=>'select','empty'=>'select','label'=>'','name'=>'districtId','id'=>'districtId'));
+                ?>
+            </div>
         </div>
 
         <div class="controlWrap">
@@ -40,7 +52,7 @@ echo $this->element('header');?>
         </div>
 
         <div class="controlWrap">
-             <?php echo $this->Form->input('',array('type'=>'checkbox','class'=>'userAccept','name'=> 'accept','label'=>'I accept all terms and conditions.'));?>
+             <?php echo $this->Form->input('',array('type'=>'checkbox','class'=>'userAccept','name'=> 'accept','label'=>'I accept all terms and conditions.','div' => false));?>
         </div>
 
         <div class="controlWrap">
@@ -60,6 +72,8 @@ echo $this->element('header');?>
         {
             $("#loadimg").show();
             stateId = $("#stateId").val();
+            var value = $(this).find("option:selected").text();
+            $(this).parents(".customSelectWrap").find(".selectedValue").text(value);
             url = 'getUserDistrict';
             data = "stateId=" + stateId;
             bodycontent = unescape(ajaxRequest(url, data));
@@ -86,4 +100,9 @@ echo $this->element('header');?>
         }).responseText;
         return escape(bodycontent);
     }
+
+    $(".customSelectWrap select").on("change",function(){
+          var value = $(this).find("option:selected").text();
+          $(this).parents(".customSelectWrap").find(".selectedValue").text(value);
+    });
 </script>
