@@ -39,6 +39,6 @@ class AppController extends Controller {
 
     public function beforeFilter() {
         parent::beforeFilter();
-        $this->Auth->allow('login','home','register','getUserDistrict','forgot_password','reset_password_token');
+        $this->Auth->allow('login','home','register','getUserDistrict','forgot_password','reset_password_token','samaj_history','navnath_history','navnath_temples');
     }
 }
