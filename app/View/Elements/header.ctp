@@ -34,10 +34,25 @@
 								array('escape' => false)),'/Index/home',array('class' => 'myListClass'));
 						?>
 					</li>
-					<li class="hasSMenu"><a href="#">About</a>
+					<li class="hasSMenu"><a href="#"><i class="fa fa-exclamation"></i>About</a>
 						<ul class="subNav">
-							<li><a href="#">History of Jogi samaj</a></li>
-							<li><a href="#">Jogi Association</a></li>
+							<li>
+								<?php 
+									echo $this->Html->link('History of Jogi samaj',
+										array('controller'=>'About','action'=>'samaj_history'),
+										array('escape' => false));
+								?>
+							</li>
+							<li><?php 
+									echo $this->Html->link('Navnath History',
+										array('controller'=>'About','action'=>'navnath_history'),
+										array('escape' => false));
+								?></li>
+							<li><?php 
+									echo $this->Html->link('Navnath Temples',
+										array('controller'=>'About','action'=>'navnath_temples'),
+										array('escape' => false));
+								?></li>
 							
 						</ul>
 					</li>

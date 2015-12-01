@@ -49,6 +49,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		echo $this->fetch('css');
 		echo $this->fetch('script');
 	?>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
     </head>
     <body>
 			<?php echo $this->fetch('content'); ?>

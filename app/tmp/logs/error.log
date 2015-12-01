@@ -16316,6 +16316,7 @@ Stack Trace:
 #1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(IndexController), Object(CakeRequest))
 #2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+<<<<<<< HEAD
 2015-11-02 19:29:09 Error: [MissingActionException] Action IndexController::news.html() could not be found.
 Exception Attributes: array (
   'controller' => 'IndexController',
@@ -16838,3 +16839,120 @@ Request URL: /js/jquery.min.map
 Stack Trace:
 #0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+=======
+2015-11-01 08:52:17 Error: [MissingControllerException] Controller class HtmlController could not be found.
+Exception Attributes: array (
+  'class' => 'HtmlController',
+  'plugin' => NULL,
+)
+Request URL: /Html/index.ctp
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-01 08:52:20 Error: [MissingControllerException] Controller class HtmlController could not be found.
+Exception Attributes: array (
+  'class' => 'HtmlController',
+  'plugin' => NULL,
+)
+Request URL: /Html/index
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-20 18:50:43 Error: [MissingActionException] Action AboutController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'AboutController',
+  'action' => 'images',
+)
+Request URL: /About/images/advt-banner1.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AboutController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-11-20 18:50:43 Error: [MissingActionException] Action AboutController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'AboutController',
+  'action' => 'images',
+)
+Request URL: /About/images/advt.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AboutController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-11-20 19:02:40 Error: [MissingActionException] Action AboutController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'AboutController',
+  'action' => 'images',
+)
+Request URL: /About/images/advt-banner1.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AboutController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-11-20 19:02:40 Error: [MissingActionException] Action AboutController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'AboutController',
+  'action' => 'images',
+)
+Request URL: /About/images/advt.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AboutController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-01 17:42:03 Error: [MissingControllerException] Controller class News.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'News.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /news.html
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-01 17:42:30 Error: [MissingActionException] Action AboutController::news.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'AboutController',
+  'action' => 'news.html',
+)
+Request URL: /About/news.html
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AboutController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-01 18:09:39 Error: [MissingActionException] Action AboutController::news.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'AboutController',
+  'action' => 'news.html',
+)
+Request URL: /About/news.html
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AboutController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-01 18:10:07 Error: [MissingActionException] Action AboutController::news() could not be found.
+Exception Attributes: array (
+  'controller' => 'AboutController',
+  'action' => 'news',
+)
+Request URL: /About/news
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AboutController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-01 18:11:55 Error: [MissingActionException] Action IndexController::searchUser.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'IndexController',
+  'action' => 'searchUser.html',
+)
+Request URL: /Index/searchUser.html
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(IndexController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+>>>>>>> 47d1484e0afd6e42f0ca656f61ddc2959b2174df
