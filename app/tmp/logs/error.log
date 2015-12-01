@@ -16316,6 +16316,530 @@ Stack Trace:
 #1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(IndexController), Object(CakeRequest))
 #2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+<<<<<<< HEAD
+2015-11-02 19:29:09 Error: [MissingActionException] Action IndexController::news.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'IndexController',
+  'action' => 'news.html',
+)
+Request URL: /Index/news.html
+Stack Trace:
+#0 E:\git-project\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 E:\git-project\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(IndexController), Object(CakeRequest))
+#2 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-11-03 18:52:26 Error: [MissingActionException] Action IndexController::news.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'IndexController',
+  'action' => 'news.html',
+)
+Request URL: /Index/news.html
+Stack Trace:
+#0 E:\git-project\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 E:\git-project\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(IndexController), Object(CakeRequest))
+#2 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-11-20 18:31:36 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+',
+  'enabled' => true,
+)
+Request URL: /users/login
+Stack Trace:
+#0 E:\git-project\JogiPortal\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 E:\git-project\JogiPortal\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 E:\git-project\JogiPortal\lib\Cake\Model\Model.php(3617): ConnectionManager::getDataSource('default')
+#3 E:\git-project\JogiPortal\lib\Cake\Model\Model.php(1155): Model->setDataSource('default')
+#4 E:\git-project\JogiPortal\lib\Cake\Model\Model.php(3644): Model->setSource('states')
+#5 E:\git-project\JogiPortal\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#6 E:\git-project\JogiPortal\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#7 E:\git-project\JogiPortal\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('State', 'fields')
+#8 E:\git-project\JogiPortal\app\View\Users\login.ctp(7): FormHelper->create('', Array)
+#9 E:\git-project\JogiPortal\lib\Cake\View\View.php(961): include('E:\\git-project\\...')
+#10 E:\git-project\JogiPortal\lib\Cake\View\View.php(923): View->_evaluate('E:\\git-project\\...', Array)
+#11 E:\git-project\JogiPortal\lib\Cake\View\View.php(473): View->_render('E:\\git-project\\...')
+#12 E:\git-project\JogiPortal\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#13 E:\git-project\JogiPortal\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#14 E:\git-project\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-11-20 18:32:04 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+',
+  'enabled' => true,
+)
+Request URL: /users/login
+Stack Trace:
+#0 E:\git-project\JogiPortal\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 E:\git-project\JogiPortal\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 E:\git-project\JogiPortal\lib\Cake\Model\Model.php(3617): ConnectionManager::getDataSource('default')
+#3 E:\git-project\JogiPortal\lib\Cake\Model\Model.php(1155): Model->setDataSource('default')
+#4 E:\git-project\JogiPortal\lib\Cake\Model\Model.php(3644): Model->setSource('states')
+#5 E:\git-project\JogiPortal\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#6 E:\git-project\JogiPortal\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#7 E:\git-project\JogiPortal\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('State', 'fields')
+#8 E:\git-project\JogiPortal\app\View\Users\login.ctp(7): FormHelper->create('', Array)
+#9 E:\git-project\JogiPortal\lib\Cake\View\View.php(961): include('E:\\git-project\\...')
+#10 E:\git-project\JogiPortal\lib\Cake\View\View.php(923): View->_evaluate('E:\\git-project\\...', Array)
+#11 E:\git-project\JogiPortal\lib\Cake\View\View.php(473): View->_render('E:\\git-project\\...')
+#12 E:\git-project\JogiPortal\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#13 E:\git-project\JogiPortal\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#14 E:\git-project\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-11-20 19:15:08 Error: Fatal Error (1): Class 'Helper' not found in [E:\git-project\JogiPortal\app\View\Helper\MenuHelper.php, line 8]
+2015-11-20 19:15:08 Error: [FatalErrorException] Class 'Helper' not found
+Request URL: /Index/home
+Stack Trace:
+#0 E:\git-project\JogiPortal\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Helper' ...', 'E:\\git-project\\...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Helper' ...', 'E:\\git-project\\...', 8, Array)
+#2 E:\git-project\JogiPortal\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Helper' ...', 'E:\\git-project\\...', 8, Array)
+#3 E:\git-project\JogiPortal\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-20 19:17:20 Error: Fatal Error (1): Call to a member function item() on null in [E:\git-project\JogiPortal\app\View\Elements\header.ctp, line 31]
+2015-11-20 19:17:20 Error: [FatalErrorException] Call to a member function item() on null
+Request URL: /Index/home
+Stack Trace:
+#0 E:\git-project\JogiPortal\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\git-project\\...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\git-project\\...', 31, Array)
+#2 E:\git-project\JogiPortal\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\git-project\\...', 31, Array)
+#3 E:\git-project\JogiPortal\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-20 19:19:24 Error: Fatal Error (1): Call to a member function item() on null in [E:\git-project\JogiPortal\app\View\Elements\header.ctp, line 31]
+2015-11-20 19:19:24 Error: [FatalErrorException] Call to a member function item() on null
+Request URL: /Index/home
+Stack Trace:
+#0 E:\git-project\JogiPortal\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\git-project\\...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\git-project\\...', 31, Array)
+#2 E:\git-project\JogiPortal\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\git-project\\...', 31, Array)
+#3 E:\git-project\JogiPortal\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-20 19:20:18 Error: Fatal Error (1): Call to a member function item() on null in [E:\git-project\JogiPortal\app\View\Elements\header.ctp, line 31]
+2015-11-20 19:20:18 Error: [FatalErrorException] Call to a member function item() on null
+Request URL: /Index/home
+Stack Trace:
+#0 E:\git-project\JogiPortal\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\git-project\\...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\git-project\\...', 31, Array)
+#2 E:\git-project\JogiPortal\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\git-project\\...', 31, Array)
+#3 E:\git-project\JogiPortal\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-20 19:20:19 Error: Fatal Error (1): Call to a member function item() on null in [E:\git-project\JogiPortal\app\View\Elements\header.ctp, line 31]
+2015-11-20 19:20:19 Error: [FatalErrorException] Call to a member function item() on null
+Request URL: /Index/home
+Stack Trace:
+#0 E:\git-project\JogiPortal\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\git-project\\...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\git-project\\...', 31, Array)
+#2 E:\git-project\JogiPortal\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\git-project\\...', 31, Array)
+#3 E:\git-project\JogiPortal\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-20 19:21:16 Error: Fatal Error (1): Call to a member function item() on null in [E:\git-project\JogiPortal\app\View\Elements\header.ctp, line 31]
+2015-11-20 19:21:16 Error: [FatalErrorException] Call to a member function item() on null
+Request URL: /Index/home
+Stack Trace:
+#0 E:\git-project\JogiPortal\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\git-project\\...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\git-project\\...', 31, Array)
+#2 E:\git-project\JogiPortal\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\git-project\\...', 31, Array)
+#3 E:\git-project\JogiPortal\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-20 19:21:17 Error: Fatal Error (1): Call to a member function item() on null in [E:\git-project\JogiPortal\app\View\Elements\header.ctp, line 31]
+2015-11-20 19:21:17 Error: [FatalErrorException] Call to a member function item() on null
+Request URL: /Index/home
+Stack Trace:
+#0 E:\git-project\JogiPortal\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\git-project\\...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\git-project\\...', 31, Array)
+#2 E:\git-project\JogiPortal\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\git-project\\...', 31, Array)
+#3 E:\git-project\JogiPortal\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-20 19:21:18 Error: Fatal Error (1): Call to a member function item() on null in [E:\git-project\JogiPortal\app\View\Elements\header.ctp, line 31]
+2015-11-20 19:21:18 Error: [FatalErrorException] Call to a member function item() on null
+Request URL: /Index/home
+Stack Trace:
+#0 E:\git-project\JogiPortal\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\git-project\\...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\git-project\\...', 31, Array)
+#2 E:\git-project\JogiPortal\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\git-project\\...', 31, Array)
+#3 E:\git-project\JogiPortal\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-20 19:21:18 Error: Fatal Error (1): Call to a member function item() on null in [E:\git-project\JogiPortal\app\View\Elements\header.ctp, line 31]
+2015-11-20 19:21:18 Error: [FatalErrorException] Call to a member function item() on null
+Request URL: /Index/home
+Stack Trace:
+#0 E:\git-project\JogiPortal\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\git-project\\...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\git-project\\...', 31, Array)
+#2 E:\git-project\JogiPortal\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\git-project\\...', 31, Array)
+#3 E:\git-project\JogiPortal\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-20 19:21:21 Error: Fatal Error (1): Call to a member function item() on null in [E:\git-project\JogiPortal\app\View\Elements\header.ctp, line 31]
+2015-11-20 19:21:21 Error: [FatalErrorException] Call to a member function item() on null
+Request URL: /Index/home
+Stack Trace:
+#0 E:\git-project\JogiPortal\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\git-project\\...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\git-project\\...', 31, Array)
+#2 E:\git-project\JogiPortal\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\git-project\\...', 31, Array)
+#3 E:\git-project\JogiPortal\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-20 19:21:42 Error: Fatal Error (1): Call to a member function item() on null in [E:\git-project\JogiPortal\app\View\Elements\header.ctp, line 31]
+2015-11-20 19:21:42 Error: [FatalErrorException] Call to a member function item() on null
+Request URL: /Index/home
+Stack Trace:
+#0 E:\git-project\JogiPortal\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\git-project\\...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\git-project\\...', 31, Array)
+#2 E:\git-project\JogiPortal\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\git-project\\...', 31, Array)
+#3 E:\git-project\JogiPortal\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-20 19:21:43 Error: Fatal Error (1): Call to a member function item() on null in [E:\git-project\JogiPortal\app\View\Elements\header.ctp, line 31]
+2015-11-20 19:21:43 Error: [FatalErrorException] Call to a member function item() on null
+Request URL: /Index/home
+Stack Trace:
+#0 E:\git-project\JogiPortal\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\git-project\\...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\git-project\\...', 31, Array)
+#2 E:\git-project\JogiPortal\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\git-project\\...', 31, Array)
+#3 E:\git-project\JogiPortal\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-20 19:21:44 Error: Fatal Error (1): Call to a member function item() on null in [E:\git-project\JogiPortal\app\View\Elements\header.ctp, line 31]
+2015-11-20 19:21:44 Error: [FatalErrorException] Call to a member function item() on null
+Request URL: /Index/home
+Stack Trace:
+#0 E:\git-project\JogiPortal\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\git-project\\...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\git-project\\...', 31, Array)
+#2 E:\git-project\JogiPortal\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\git-project\\...', 31, Array)
+#3 E:\git-project\JogiPortal\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-20 19:22:10 Error: Fatal Error (1): Call to undefined function e() in [E:\git-project\JogiPortal\app\View\Elements\header.ctp, line 31]
+2015-11-20 19:22:10 Error: [FatalErrorException] Call to undefined function e()
+Request URL: /Index/home
+Stack Trace:
+#0 E:\git-project\JogiPortal\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'E:\\git-project\\...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'E:\\git-project\\...', 31, Array)
+#2 E:\git-project\JogiPortal\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'E:\\git-project\\...', 31, Array)
+#3 E:\git-project\JogiPortal\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-20 19:22:11 Error: Fatal Error (1): Call to undefined function e() in [E:\git-project\JogiPortal\app\View\Elements\header.ctp, line 31]
+2015-11-20 19:22:11 Error: [FatalErrorException] Call to undefined function e()
+Request URL: /Index/home
+Stack Trace:
+#0 E:\git-project\JogiPortal\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'E:\\git-project\\...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'E:\\git-project\\...', 31, Array)
+#2 E:\git-project\JogiPortal\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'E:\\git-project\\...', 31, Array)
+#3 E:\git-project\JogiPortal\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-20 19:23:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.map
+Stack Trace:
+#0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-20 19:24:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.map
+Stack Trace:
+#0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-20 19:24:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.map
+Stack Trace:
+#0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-20 19:26:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.map
+Stack Trace:
+#0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-20 19:26:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.map
+Stack Trace:
+#0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-20 19:28:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.map
+Stack Trace:
+#0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-20 19:28:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.map
+Stack Trace:
+#0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-20 19:28:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.map
+Stack Trace:
+#0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-20 19:33:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.map
+Stack Trace:
+#0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-20 19:37:55 Error: [MissingControllerException] Controller class OnlinestoreController could not be found.
+Exception Attributes: array (
+  'class' => 'OnlinestoreController',
+  'plugin' => NULL,
+)
+Request URL: /onlinestore/mixplayM.png
+Stack Trace:
+#0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-20 19:39:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.map
+Stack Trace:
+#0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-20 19:39:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.map
+Stack Trace:
+#0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-20 19:45:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.map
+Stack Trace:
+#0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-20 19:45:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.map
+Stack Trace:
+#0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-20 19:46:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.map
+Stack Trace:
+#0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-20 19:47:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.map
+Stack Trace:
+#0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-20 19:50:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.map
+Stack Trace:
+#0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-24 18:29:19 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [E:\git-project\JogiPortal\lib\Cake\View\View.php, line 1106]
+2015-11-24 18:29:19 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /
+Stack Trace:
+#0 E:\git-project\JogiPortal\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'E:\\git-project\\...', 1106)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'E:\\git-project\\...', 1106, Array)
+#2 E:\git-project\JogiPortal\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'E:\\git-project\\...', 1106, Array)
+#3 E:\git-project\JogiPortal\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-24 19:14:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.map
+Stack Trace:
+#0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-24 19:14:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.map
+Stack Trace:
+#0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-24 19:16:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.map
+Stack Trace:
+#0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-24 19:16:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.map
+Stack Trace:
+#0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-24 19:16:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.map
+Stack Trace:
+#0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-24 19:20:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.map
+Stack Trace:
+#0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-24 19:23:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.map
+Stack Trace:
+#0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-24 19:24:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.map
+Stack Trace:
+#0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-24 19:26:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.map
+Stack Trace:
+#0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-24 19:26:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.map
+Stack Trace:
+#0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-24 19:26:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.map
+Stack Trace:
+#0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-24 19:27:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.map
+Stack Trace:
+#0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-24 19:27:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.map
+Stack Trace:
+#0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-24 19:27:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.map
+Stack Trace:
+#0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-24 19:27:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.map
+Stack Trace:
+#0 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+=======
 2015-11-01 08:52:17 Error: [MissingControllerException] Controller class HtmlController could not be found.
 Exception Attributes: array (
   'class' => 'HtmlController',
@@ -16431,3 +16955,4 @@ Stack Trace:
 #1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(IndexController), Object(CakeRequest))
 #2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+>>>>>>> 47d1484e0afd6e42f0ca656f61ddc2959b2174df
