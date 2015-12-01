@@ -25,13 +25,13 @@
 		<nav>
 			<div class="container">
 				<div class="menuContainer clearfix">
-				<ul class='mainNav pull-left'>
+				<ul class='mainNav pull-left menu'>
 					<li>
 						<?php 
-							echo $this->Html->link(
+							echo $this->menu->item($this->Html->link(
 								$this->Html->tag('i', '', array('class' => 'fa fa-home'))."Home",
 								array('controller'=>'Index','action'=>'home'),
-								array('escape' => false));
+								array('escape' => false)),'/Index/home',array('class' => 'myListClass'));
 						?>
 					</li>
 					<li class="hasSMenu"><a href="#">About</a>
@@ -48,16 +48,16 @@
 				<ul class='loginMenu pull-right'>
 					<li>
 						<?php 
-						echo $this->Html->link($this->Html->tag('i', '', array('class' => 'fa fa-sign-in')).'Login',
+						echo $this->menu->item($this->Html->link($this->Html->tag('i', '', array('class' => 'fa fa-sign-in')).'Login',
 							array('controller'=>'Users','action'=>'login'),
-							array('escape' => false));
+							array('escape' => false)),'/Users/login',array('class' => 'myListClass'));
 						?>
 					</li>
 					<li>
 						<?php 
-							echo $this->Html->link($this->Html->tag('i','',array('class' => 'fa fa-user-plus')).'Register',
+							echo $this->menu->item($this->Html->link($this->Html->tag('i','',array('class' => 'fa fa-user-plus')).'Register',
 								array('controller'=>'Users','action'=>'register'),
-								array('escape' => false));
+								array('escape' => false)),'/Users/register',array('class' => 'myListClass'));
 						?>
 					</li>
 					<!-- <li class="hasSMenu"><a href="#">Profile</a>

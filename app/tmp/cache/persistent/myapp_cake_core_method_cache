@@ -1,2 +1,2 @@
-1446363578
-a:2:{i:0;b:0;s:4:"name";a:2:{s:32:"929fc76a59ff875dfa6d2708554b9c8c";s:14:"`jogidatabase`";s:32:"f898dee5e0ba525ecbaffaa21fd45ca6";s:8:"`states`";}}
+1448389651
+a:3:{i:0;b:0;s:4:"name";a:5:{s:32:"929fc76a59ff875dfa6d2708554b9c8c";s:14:"`jogidatabase`";s:32:"f898dee5e0ba525ecbaffaa21fd45ca6";s:8:"`states`";s:32:"16b94ac8c15d7161916e0ba8c1864d20";s:17:"`State`.`stateId`";s:32:"ded84257d4844c2d615ad5338d4f2900";s:19:"`State`.`stateName`";s:32:"1516ecedeaf5e9ac02379dd2c54554a3";s:7:"`State`";}s:6:"fields";a:1:{s:32:"3b1e29af15d2d26535e9f7ac7e02352a";a:2:{i:0;s:17:"`State`.`stateId`";i:1;s:19:"`State`.`stateName`";}}}

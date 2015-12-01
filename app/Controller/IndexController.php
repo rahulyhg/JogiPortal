@@ -10,11 +10,10 @@ class IndexController extends AppController {
 
     var $component = array('RequestHandler', 'Auth');
     var $uses = array('State', 'District', 'User');
+    var $helpers = array('Menu');
 
     public function home() {
         
     }
-
-   
 
 }
