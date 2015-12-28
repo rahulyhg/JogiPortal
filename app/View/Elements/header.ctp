@@ -57,7 +57,13 @@
 						</ul>
 					</li>
 					<li><a href="#"><i class="fa fa-file-photo-o"></i>Gallery</a></li>
-					<li><a href="news.html"><i class="fa fa-newspaper-o"></i>News</a></li>
+					<li>
+						<?php 
+							echo $this->menu->item($this->Html->link(
+								$this->Html->tag('i', '', array('class' => 'fa-newspaper-o'))."News",array('controller'=>'News','action'=>'index'),	array('escape' => false)));
+						?>
+
+						</li>
 					<li><a href="searchUser.html"><i class="fa fa-search"></i>Directory</a></li>
 				</ul>
 				<ul class='loginMenu pull-right'>

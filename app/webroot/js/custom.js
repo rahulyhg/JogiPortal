@@ -128,6 +128,9 @@ var _regClick = function () {
              });
              return false;*/
             form.submit();
+        },
+        errorPlacement: function(error, element) {
+            error.insertBefore($(element).parents("controlWrap"));
         }
     });
 }

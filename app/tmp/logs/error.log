@@ -16956,3 +16956,86 @@ Stack Trace:
 #2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
 >>>>>>> 47d1484e0afd6e42f0ca656f61ddc2959b2174df
+2015-12-01 18:47:21 Error: [MissingActionException] Action AboutController::donate.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'AboutController',
+  'action' => 'donate.html',
+)
+Request URL: /About/donate.html
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AboutController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 17:40:26 Error: [MissingActionException] Action AboutController::news.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'AboutController',
+  'action' => 'news.html',
+)
+Request URL: /About/news.html
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AboutController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 17:41:34 Error: [MissingControllerException] Controller class News.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'News.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /news.html
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-28 17:41:39 Error: [MissingControllerException] Controller class SearchUser.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'SearchUser.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /searchUser.html
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-28 17:41:54 Error: [MissingActionException] Action AboutController::news.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'AboutController',
+  'action' => 'news.html',
+)
+Request URL: /About/news.html
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AboutController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 17:42:03 Error: [MissingActionException] Action AboutController::news.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'AboutController',
+  'action' => 'news.html',
+)
+Request URL: /About/news.html
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AboutController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 17:42:06 Error: [MissingActionException] Action AboutController::news() could not be found.
+Exception Attributes: array (
+  'controller' => 'AboutController',
+  'action' => 'news',
+)
+Request URL: /About/news
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AboutController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 17:49:45 Error: Fatal Error (4): syntax error, unexpected ';' in [D:\unmesh\GIT-PRO\JogiPortal\app\View\Elements\header.ctp, line 65]
+2015-12-28 17:49:45 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\\unmesh\\GIT-P...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\\unmesh\\GIT-P...', 65, Array)
+#2 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\\unmesh\\GIT-P...', 65, Array)
+#3 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
