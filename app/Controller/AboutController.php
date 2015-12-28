@@ -7,13 +7,19 @@
  */
 
 class AboutController extends AppController {
-	public function samaj_history(){
 
-	}
-	public function navnath_history(){
+    var $helpers = array('Menu');
 
-	}
-	public function navnath_temples(){
+    public function samaj_history() {
+        $this->set('activeMenu', 'about');
+    }
 
-	}
+    public function navnath_history() {
+        $this->set('activeMenu', 'about');
+    }
+
+    public function navnath_temples() {
+        $this->set('activeMenu', 'about');
+    }
+
 }
