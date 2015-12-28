@@ -42,9 +42,10 @@ class MenuHelper extends Helper {
             $attributes = array_merge_recursive($attributes, array('class' => $activeClass));
             if (is_array($attributes)) {
 //                echo "<pre>";print_r($attributes);exit;
-                $attributes = implode(' ',$attributes['class']);
-                $attributes='class="'.$attributes.'"';
-//                echo $attributes;exit;
+                $attributes = implode(' ', $attributes['class']);
+                $attributes = 'class="' . $attributes . '"';
+//                echo $link;                exit;
+                
             }
         }
         return $this->Html->tag('li', $link, $attributes);

@@ -22,6 +22,7 @@ class UsersController extends AppController {
 //    }
 
     public function login() {
+        $this->set('activeMenu', 'login');
         if ($this->request->is('POST')) {
             $username = $this->request->data['username'];
             $password = $this->Auth->password($this->request->data['password']);
@@ -46,6 +47,7 @@ class UsersController extends AppController {
     }
 
     public function register() {
+        $this->set('activeMenu', 'register');
         $arrState = $this->State->find('list', array('fields' => array('State.stateId', 'State.stateName')));
         $this->set('arrState', $arrState);
         if ($this->request->is('POST')) {
