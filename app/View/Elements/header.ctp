@@ -73,7 +73,24 @@
                         </ul>
                     </li>
                     <li><a href="#"><i class="fa fa-file-photo-o"></i>Gallery</a></li>
-                    <li><a href="news.html"><i class="fa fa-newspaper-o"></i>News</a></li>
+
+
+                    <?php 
+                                                    if($activeMenu=="news"){
+                                                       $setClass="active";
+                                                    }else{
+                                                        $setClass="";
+                                                    } ?>
+                    <li class="<?php echo $setClass; ?>">
+                   <!-- a href="news.html"><i class="fa fa-newspaper-o"></i>News</a> -->
+                    <?php 
+                        echo $this->Html->link($this->Html->tag('i', '', array('class' => 'fa fa-newspaper-o')).'News',
+                            array('controller'=>'News','action'=>'index'),
+                            array('escape' => false));
+                        ?>
+                    	
+
+                    </li>
                     <li><a href="searchUser.html"><i class="fa fa-search"></i>Directory</a></li>
                 </ul>
                 <ul class='loginMenu pull-right'>

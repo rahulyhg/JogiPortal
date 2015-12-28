@@ -18975,3 +18975,342 @@ Stack Trace:
 #2 E:\git-project\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
 >>>>>>> e14683a5fad082a704ecb0396c825bfc43be6efd
+2015-12-28 18:03:54 Error: [MissingActionException] Action UsersController::news.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'news.html',
+)
+Request URL: /Users/news.html
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 18:04:47 Error: [MissingActionException] Action UsersController::news.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'news.html',
+)
+Request URL: /Users/news.html
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 18:10:04 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /index.html
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-28 18:13:31 Error: [MissingActionException] Action NewsController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'NewsController',
+  'action' => 'images',
+)
+Request URL: /News/images/advt-banner1.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 18:13:32 Error: [MissingActionException] Action NewsController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'NewsController',
+  'action' => 'images',
+)
+Request URL: /News/images/advertising.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 18:13:32 Error: [MissingActionException] Action NewsController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'NewsController',
+  'action' => 'images',
+)
+Request URL: /News/images/advt.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 18:13:32 Error: [MissingActionException] Action NewsController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'NewsController',
+  'action' => 'images',
+)
+Request URL: /News/images/advt-banner1.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 18:14:45 Error: [MissingActionException] Action NewsController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'NewsController',
+  'action' => 'images',
+)
+Request URL: /News/images/advt-banner1.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 18:14:45 Error: [MissingActionException] Action NewsController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'NewsController',
+  'action' => 'images',
+)
+Request URL: /News/images/advertising.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 18:14:45 Error: [MissingActionException] Action NewsController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'NewsController',
+  'action' => 'images',
+)
+Request URL: /News/images/advt.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 18:14:45 Error: [MissingActionException] Action NewsController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'NewsController',
+  'action' => 'images',
+)
+Request URL: /News/images/advt-banner1.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 18:14:45 Error: [MissingActionException] Action NewsController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'NewsController',
+  'action' => 'images',
+)
+Request URL: /News/images/advertising.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 18:14:45 Error: [MissingActionException] Action NewsController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'NewsController',
+  'action' => 'images',
+)
+Request URL: /News/images/advt.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 18:15:03 Error: [MissingActionException] Action NewsController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'NewsController',
+  'action' => 'images',
+)
+Request URL: /News/images/advt-banner1.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 18:15:03 Error: [MissingActionException] Action NewsController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'NewsController',
+  'action' => 'images',
+)
+Request URL: /News/images/advertising.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 18:15:03 Error: [MissingActionException] Action NewsController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'NewsController',
+  'action' => 'images',
+)
+Request URL: /News/images/advt.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 18:15:04 Error: [MissingActionException] Action NewsController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'NewsController',
+  'action' => 'images',
+)
+Request URL: /News/images/advt-banner1.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 18:15:04 Error: [MissingActionException] Action NewsController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'NewsController',
+  'action' => 'images',
+)
+Request URL: /News/images/advt.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 18:15:04 Error: [MissingActionException] Action NewsController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'NewsController',
+  'action' => 'images',
+)
+Request URL: /News/images/advertising.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 18:16:18 Error: [MissingActionException] Action NewsController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'NewsController',
+  'action' => 'images',
+)
+Request URL: /News/images/advt-banner1.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 18:16:18 Error: [MissingActionException] Action NewsController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'NewsController',
+  'action' => 'images',
+)
+Request URL: /News/images/advertising.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 18:16:18 Error: [MissingActionException] Action NewsController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'NewsController',
+  'action' => 'images',
+)
+Request URL: /News/images/advt.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 18:16:18 Error: [MissingActionException] Action NewsController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'NewsController',
+  'action' => 'images',
+)
+Request URL: /News/images/advertising.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 18:16:18 Error: [MissingActionException] Action NewsController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'NewsController',
+  'action' => 'images',
+)
+Request URL: /News/images/advt-banner1.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 18:16:18 Error: [MissingActionException] Action NewsController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'NewsController',
+  'action' => 'images',
+)
+Request URL: /News/images/advt.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 18:17:30 Error: [MissingActionException] Action NewsController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'NewsController',
+  'action' => 'images',
+)
+Request URL: /News/images/advt-banner1.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 18:17:30 Error: [MissingActionException] Action NewsController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'NewsController',
+  'action' => 'images',
+)
+Request URL: /News/images/advertising.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 18:17:30 Error: [MissingActionException] Action NewsController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'NewsController',
+  'action' => 'images',
+)
+Request URL: /News/images/advt.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 18:17:30 Error: [MissingActionException] Action NewsController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'NewsController',
+  'action' => 'images',
+)
+Request URL: /News/images/advt.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 18:17:30 Error: [MissingActionException] Action NewsController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'NewsController',
+  'action' => 'images',
+)
+Request URL: /News/images/advertising.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 18:17:30 Error: [MissingActionException] Action NewsController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'NewsController',
+  'action' => 'images',
+)
+Request URL: /News/images/advt-banner1.jpg
+Stack Trace:
+#0 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\unmesh\GIT-PRO\JogiPortal\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#2 D:\unmesh\GIT-PRO\JogiPortal\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

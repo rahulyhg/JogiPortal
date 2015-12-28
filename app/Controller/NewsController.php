@@ -35,4 +35,8 @@ class NewsController extends AppController {
         
     }
 
+    public function index(){
+        $this->set('activeMenu', 'news');
+    }
+
 }
